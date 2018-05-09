@@ -11,6 +11,10 @@
   <modules>
     <module>tutorial_cloud_server</module>
     <module>tutorial_cloud_client1</module>
+    <module>tutorial_cloud_service_a</module>
+      <module>tutorial_cloud_configurer</module>
+    <module>tutorial_cloud_book</module>
+    <module>tutorial_cloud_people</module>
   </modules>
 
   <name>tutorial_springcloud</name>
@@ -20,6 +24,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <cloud.version>2.0.0.RC1</cloud.version>
   </properties>
 
   <parent>
@@ -37,12 +42,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>javax.servlet</groupId>
-          <artifactId>servlet-api</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <!--test-->
     <dependency>
@@ -53,7 +52,7 @@
 
   </dependencies>
 
-  <repositories>
+  <!--<repositories>
     <repository>
       <id>spring-milestones</id>
       <name>Spring Milestones</name>
@@ -62,5 +61,5 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
-  </repositories>
+  </repositories>-->
 </project>

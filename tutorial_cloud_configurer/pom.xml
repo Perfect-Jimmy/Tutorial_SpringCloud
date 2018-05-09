@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial_cloud_client1</artifactId>
+    <artifactId>tutorial_cloud_configurer</artifactId>
 
-    <name>tutorial_cloud_client1</name>
+    <name>tutorial_cloud_configurer</name>
     <url>http://www.example.com</url>
 
     <properties>
@@ -22,15 +22,11 @@
 
     <dependencies>
         <dependency>
-           <groupId>org.springframework.cloud</groupId>
-           <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-           <version>2.0.0.RC1</version>
-        </dependency>
-       <!-- <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config</artifactId>
-            <version>2.0.0.RC1</version>
-        </dependency>-->
+            <artifactId>spring-cloud-config-server</artifactId>
+            <version>${cloud.version}</version>
+        </dependency>
     </dependencies>
+
 
 </project>
