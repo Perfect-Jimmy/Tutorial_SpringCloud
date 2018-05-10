@@ -4,13 +4,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Jimmy. 2018/5/9  17:58
+ * Created by Jimmy. 2018/5/10  17:29
  */
 @RestController
-public class TestController {
+public class PeopleController {
 
-    @RequestMapping(value = "info")
-    public String test(){
-        return "hello 1";
+    @RequestMapping("people")
+    public String peopleTest(){
+        return "people";
     }
 }
