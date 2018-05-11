@@ -10,8 +10,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 //@EnableEurekaClient
 @EnableDiscoveryClient
-public class BookStart {
+public class BookServerStart {
     public static void main(String[] args) {
-        SpringApplication.run(BookStart.class,args);
+        SpringApplication.run(BookServerStart.class,args);
     }
 }
