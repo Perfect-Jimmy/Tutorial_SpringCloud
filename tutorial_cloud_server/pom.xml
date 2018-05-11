@@ -40,15 +40,23 @@
             <artifactId>spring-cloud-starter-config</artifactId>
             <version>${cloud.version}</version>
         </dependency>
-
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
     <profiles>
         <profile>
             <id>register-server</id>
             <properties>
                 <eureka.instance.hostname>localhost</eureka.instance.hostname>
-                <server.port>9001</server.port>
+                <server.port>1111</server.port>
             </properties>
         </profile>
     </profiles>

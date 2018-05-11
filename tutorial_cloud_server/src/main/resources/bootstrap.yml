@@ -1,0 +1,15 @@
+#server:
+  #port: @server.port@
+spring:
+  application:
+    name: register-center
+  cloud:
+    config:
+      uri: http://localhost:8020
+#
+#eureka:
+  #client:
+    #fetch-registry: false #
+    #register-with-eureka: false # 不注册自己本身
+  #serviceUrl:
+    #defaultZone: http://localhost:1111/eureka/

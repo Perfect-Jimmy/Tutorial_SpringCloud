@@ -1,0 +1,18 @@
+server:
+  port: 2222
+
+eureka:
+  instance:
+  # hostname: localhost
+  prefer-ip-address: false
+  #  instance-id: ${spring.application.name}:${spring.cloud.client.hostname}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+#spring:
+  #cloud:
+    #config:
+      #discovery:
+        #enabled: true
+        #serviceId: register_service_book
+
