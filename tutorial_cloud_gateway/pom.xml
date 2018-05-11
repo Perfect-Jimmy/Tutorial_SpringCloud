@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial_cloud_book</artifactId>
+    <artifactId>tutorial_cloud_gateway</artifactId>
 
-    <name>tutorial_cloud_book</name>
+    <name>tutorial_cloud_gateway</name>
     <url>http://www.example.com</url>
 
     <properties>
@@ -23,7 +23,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
             <version>${cloud.version}</version>
         </dependency>
         <dependency>
@@ -32,10 +32,15 @@
             <version>${cloud.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+            <version>${cloud.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>${cloud.version}</version>
         </dependency>
     </dependencies>
-
 
 </project>

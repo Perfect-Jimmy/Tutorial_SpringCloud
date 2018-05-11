@@ -1,0 +1,13 @@
+server:
+  port: 9999
+
+eureka:
+  instance:
+  # hostname: localhost
+  prefer-ip-address: false
+  #  instance-id: ${spring.application.name}:${spring.cloud.client.hostname}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+

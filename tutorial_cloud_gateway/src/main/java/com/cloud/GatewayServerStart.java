@@ -5,12 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * Created by Jimmy. 2018/5/10  17:12
+ * Created by Jimmy. 2018/5/11  18:29
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class BookServerStart {
+public class GatewayServerStart {
+
     public static void main(String[] args) {
-        SpringApplication.run(BookServerStart.class,args);
+        SpringApplication.run(GatewayServerStart.class,args);
     }
 }
