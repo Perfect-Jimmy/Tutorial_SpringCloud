@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_book/tutorial_cloud_book.iml" filepath="$PROJECT_DIR$/tutorial_cloud_book/tutorial_cloud_book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_configurer/tutorial_cloud_configurer.iml" filepath="$PROJECT_DIR$/tutorial_cloud_configurer/tutorial_cloud_configurer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_consul/tutorial_cloud_consul.iml" filepath="$PROJECT_DIR$/tutorial_cloud_consul/tutorial_cloud_consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_people/tutorial_cloud_people.iml" filepath="$PROJECT_DIR$/tutorial_cloud_people/tutorial_cloud_people.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_server/tutorial_cloud_server.iml" filepath="$PROJECT_DIR$/tutorial_cloud_server/tutorial_cloud_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial_springcloud.iml" filepath="$PROJECT_DIR$/tutorial_springcloud.iml" />
+    </modules>
+  </component>
+</project>

@@ -14,10 +14,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="tutorial_cloud_book" target="1.8" />
       <module name="tutorial_cloud_client1" target="1.8" />
       <module name="tutorial_cloud_client2" target="1.8" />
+      <module name="tutorial_cloud_configurer" target="1.8" />
+      <module name="tutorial_cloud_consul" target="1.8" />
+      <module name="tutorial_cloud_people" target="1.8" />
+      <module name="tutorial_cloud_server" target="1.8" />
       <module name="tutorial_cloud_service_a" target="1.8" />
       <module name="tutorial_service_a" target="1.8" />
+      <module name="tutorial_springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
