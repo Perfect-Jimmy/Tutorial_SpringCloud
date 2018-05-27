@@ -21,7 +21,7 @@ public class BookController {
     @RequestMapping("book")
     public String bookTest(){
         String service = discoveryClient.getServices().toString();
-        logger.info("service:{}",service);
-        return "book";
+        logger.info("service:{}",service);//[book-server, people_service]  即yml中配置的application name.
+        return service;
     }
 }
