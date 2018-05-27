@@ -43,7 +43,7 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8090/eureka/
 </dependency>
 ```
 
-2. 添加注解:@EnableEurekaServer
+2. 添加注解:@EnableEurekaClient
 ```
 @SpringBootApplication
 @EnableEurekaClient
