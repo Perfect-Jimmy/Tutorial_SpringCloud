@@ -10,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * Created by Jimmy. 2018/6/3  11:10
+ * 服务消费者
  */
 @SpringBootApplication
 @EnableDiscoveryClient

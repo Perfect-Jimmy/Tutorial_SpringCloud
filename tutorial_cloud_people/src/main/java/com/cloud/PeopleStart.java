@@ -6,6 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * Created by Jimmy. 2018/5/10  17:16
+ * 服务提供者
  * https://www.bilibili.com/video/av24231421/
  */
 @SpringBootApplication

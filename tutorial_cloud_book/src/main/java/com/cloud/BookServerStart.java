@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * Created by Jimmy. 2018/5/10  17:12
- * 配置中心
+ * 服务提供者 book
  */
 @SpringBootApplication
 @EnableDiscoveryClient
