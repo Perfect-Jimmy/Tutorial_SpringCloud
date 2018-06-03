@@ -7,6 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Perfect-Jimmy/tutorial_springcloud/tree/master/tutorial_cloud_configurer_git
-       #   username: Perfect-Jimmy
-       #   password: 19871118zc
+          uri: https://github.com/Perfect-Jimmy/tutorial_springcloud # git仓库地址
+          search-paths: tutorial_cloud_configurer_repo               # git仓库地址下的相对地址,可以配置多个,用,分割
+          username: 773792867@qq.com
+          password: 19871118zc
