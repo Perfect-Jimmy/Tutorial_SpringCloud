@@ -1,2 +1,0 @@
-### 负载均衡 ribbon
-ribbon客户端负载均衡,通过在客户端中配置ribbonServerList来设置服务端列表去轮询访问以达到均衡负载的作用.

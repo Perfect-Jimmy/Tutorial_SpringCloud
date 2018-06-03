@@ -6,10 +6,13 @@
     <file url="file://$PROJECT_DIR$/tutorial_cloud_configurer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial_cloud_consul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial_cloud_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tutorial_cloud_domain" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial_cloud_gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial_cloud_people" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tutorial_cloud_repository" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial_cloud_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial_cloud_server/src/main/resources/bootstrap.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tutorial_cloud_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial_consumer" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
