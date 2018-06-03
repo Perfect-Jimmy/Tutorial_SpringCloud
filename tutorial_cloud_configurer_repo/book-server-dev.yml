@@ -1,3 +1,4 @@
+
 server:
   port: 2222
 
@@ -9,10 +10,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
-#spring:
-  #cloud:
-    #config:
-      #discovery:
-        #enabled: true
-        #serviceId: register_service_book
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8020/
+      profile: default
+      label: master
 
