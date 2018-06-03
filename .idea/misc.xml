@@ -11,7 +11,9 @@
       <set>
         <option value="$PROJECT_DIR$/tutorial_cloud_client1/pom.xml" />
         <option value="$PROJECT_DIR$/tutorial_cloud_client2/pom.xml" />
+        <option value="$PROJECT_DIR$/tutorial_cloud_feign/pom.xml" />
         <option value="$PROJECT_DIR$/tutorial_cloud_service_a/pom.xml" />
+        <option value="$PROJECT_DIR$/tutorial_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/tutorial_service_a/pom.xml" />
       </set>
     </option>
