@@ -15,10 +15,10 @@
     <module>tutorial_cloud_people</module>
     <module>tutorial_cloud_consul</module>
     <module>tutorial_cloud_gateway</module>
-      <module>tutorial_consumer</module>
     <module>tutorial_cloud_consumer</module>
-      <module>tutorial_cloud_domain</module>
-      <module>tutorial_cloud_repository</module>
+    <module>tutorial_cloud_consumer</module>
+    <module>tutorial_cloud_domain</module>
+    <module>tutorial_cloud_repository</module>
     <module>tutorial_cloud_service</module>
   </modules>
 
