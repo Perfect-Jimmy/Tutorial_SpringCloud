@@ -9,7 +9,6 @@
         <module name="tutorial_cloud_book" />
         <module name="tutorial_cloud_configurer" />
         <module name="tutorial_cloud_consul" />
-        <module name="tutorial_cloud_consumer" />
         <module name="tutorial_cloud_consumer_feign" />
         <module name="tutorial_cloud_consumer_ribbon" />
         <module name="tutorial_cloud_domain" />
@@ -21,6 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="tutorial_cloud_consumer" target="1.8" />
       <module name="tutorial_cloud_feign" target="1.8" />
       <module name="tutorial_consumer" target="1.7" />
     </bytecodeTargetLevel>

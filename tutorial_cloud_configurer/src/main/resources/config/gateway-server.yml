@@ -11,4 +11,21 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
 
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: book-server
+        uri: book-server
+        predicates:
+        - Path=/**
+      - id: gateway-server
+        uri: gateway-server
+        predicates:
+        - Path=/**
+
+
 
