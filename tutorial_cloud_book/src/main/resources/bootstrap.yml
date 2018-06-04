@@ -7,6 +7,4 @@ spring:
   cloud:
     config:
       uri: http://localhost:8020
-      profile: dev
-      label: master
       name: book-server

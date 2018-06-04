@@ -3,11 +3,10 @@ server:
   application:
     name: config-server # 配置中心的名字
 spring:
+  profiles:
+    active: native
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/Perfect-Jimmy/tutorial_springcloud # git仓库地址
-          search-paths: tutorial_cloud_configurer_repo               # git仓库地址下的相对地址,可以配置多个,用,分割
-        #  username: xxx
-        #  password: xxx
+        native:
+          searchLocations: classpath:/config  # 配置文件所在目录，classpath（类路径）和（系统文件路径） file两种
