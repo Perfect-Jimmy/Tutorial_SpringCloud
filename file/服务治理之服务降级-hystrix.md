@@ -8,8 +8,13 @@
 ```
 <dependency>
     <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-hystrix</artifactId>
-    <version>2.0.0.M1</version>
+    <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+    <version>${hystrix.version}</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+    <version>${hystrix.version}</version>
 </dependency>
 ```
 
@@ -24,5 +29,33 @@ public class ConsumerStart {
     public static void main(String[] args) {
         SpringApplication.run(ConsumerStart.class,args);
     }
+}
+```
+3. 开启容错
+```
+feign:
+  hystrix:
+    enabled: true # 开启容错
+```
+
+4. 声明容错处理类(方法)
+```
+@Component
+public class BookClientFallbackService implements BookClient {
+    @Override
+    public String book() {
+        return "book fall back";
+    }
+}
+```
+
+5. feign接口中指定fallback参数
+```
+@FeignClient(name="book-server",fallback = BookClientFallbackService.class)
+@Service
+public interface BookClient {
+
+    @GetMapping("/book")
+    String book();
 }
 ```

@@ -5,8 +5,11 @@ eureka:
   instance:
   # hostname: localhost
   prefer-ip-address: false
-  #  instance-id: ${spring.application.name}:${spring.cloud.client.hostname}:${server.port}
+  # instance-id: ${spring.application.name}:${spring.cloud.client.hostname}:${server.port}
   client:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
 
+feign:
+  hystrix:
+    enabled: true # 开启容错
