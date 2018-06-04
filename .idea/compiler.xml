@@ -10,6 +10,8 @@
         <module name="tutorial_cloud_configurer" />
         <module name="tutorial_cloud_consul" />
         <module name="tutorial_cloud_consumer" />
+        <module name="tutorial_cloud_consumer_feign" />
+        <module name="tutorial_cloud_consumer_ribbon" />
         <module name="tutorial_cloud_domain" />
         <module name="tutorial_cloud_gateway" />
         <module name="tutorial_cloud_people" />

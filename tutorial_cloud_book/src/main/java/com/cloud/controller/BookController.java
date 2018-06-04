@@ -19,7 +19,8 @@ public class BookController {
     private DiscoveryClient discoveryClient;
 
     @RequestMapping("book")
-    public String bookTest(){
+    public String bookTest() throws InterruptedException {
+        Thread.sleep(1000*10L);
         String service = discoveryClient.getServices().toString();
         logger.info("service:{}",service);//[book-server, people_service]  即yml中配置的application name.
         return service;

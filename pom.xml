@@ -19,6 +19,8 @@
     <module>tutorial_cloud_domain</module>
     <module>tutorial_cloud_repository</module>
     <module>tutorial_cloud_service</module>
+      <module>tutorial_cloud_consumer_ribbon</module>
+      <module>tutorial_cloud_consumer_feign</module>
   </modules>
 
   <name>tutorial_springcloud</name>
@@ -29,6 +31,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <cloud.version>2.0.0.RC1</cloud.version>
+    <hystrix.version>2.0.0.RC1</hystrix.version>
   </properties>
 
   <parent>

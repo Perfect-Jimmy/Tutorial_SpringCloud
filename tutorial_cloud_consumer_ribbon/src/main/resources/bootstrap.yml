@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: consumer-server-ribbon
+  cloud:
+    config:
+      uri: http://localhost:8020
+
+
+

@@ -4,7 +4,8 @@
 * Spring Cloud Netflix：针对多种Netflix组件提供的开发工具包，其中包括Eureka、Hystrix、Zuul、Archaius等。
 * Netflix Eureka：云端负载均衡，一个基于 REST 的服务，用于定位服务，以实现云端的负载均衡和中间层服务器的故障转移。
 * Netflix Hystrix：容错管理工具，旨在通过控制服务和第三方库的节点,从而对延迟和故障提供更强大的容错能力。
-* Netflix Zuul：边缘服务工具，是提供动态路由，监控，弹性，安全等的边缘服务。 7.Netflix Archaius：配置管理API，包含一系列配置管理API，提供动态类型化属性、线程安全配置操作、轮询框架、回调机制等功能。
+* Netflix Zuul：边缘服务工具，是提供动态路由，监控，弹性，安全等的边缘服务。 
+* Netflix Archaius：配置管理API，包含一系列配置管理API，提供动态类型化属性、线程安全配置操作、轮询框架、回调机制等功能。
 * Spring Cloud for Cloud Foundry：通过Oauth2协议绑定服务到CloudFoundry，CloudFoundry是VMware推出的开源PaaS云平台。
 * Spring Cloud Sleuth：日志收集工具包，封装了Dapper,Zipkin和HTrace操作。
 * Spring Cloud Data Flow：大数据操作工具，通过命令行方式操作数据流。
