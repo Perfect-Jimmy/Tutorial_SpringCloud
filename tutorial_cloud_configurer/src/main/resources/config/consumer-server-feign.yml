@@ -13,3 +13,11 @@ eureka:
 feign:
   hystrix:
     enabled: true # 开启容错
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000

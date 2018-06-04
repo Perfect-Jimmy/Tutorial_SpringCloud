@@ -16,4 +16,5 @@ public interface BookClient {
 
     @GetMapping("/book")
     String book();
+
 }

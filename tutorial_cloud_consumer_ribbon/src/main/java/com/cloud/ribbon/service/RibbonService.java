@@ -21,13 +21,5 @@ public class RibbonService {
     public String fallback() {
         return "fallback";
     }
-  /*  @HystrixCommand(fallbackMethod = "fallback")
-    public String ribbonHystrix() {
-        return restTemplate.getForObject("http://book-server/book", String.class);
-    }
-
-    public String fallback() {
-        return "fallback";
-    }*/
 
 }
