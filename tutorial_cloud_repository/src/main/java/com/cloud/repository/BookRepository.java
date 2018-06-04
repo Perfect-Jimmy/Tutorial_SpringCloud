@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
  * Created by Jimmy. 2018/6/3  21:08
  */
 @Repository
-public interface  BookRepository extends JpaRepository<Book, Long>,JpaSpecificationExecutor<Book> {
+public interface BookRepository extends JpaRepository<Book, Long>,JpaSpecificationExecutor<Book> {
 }

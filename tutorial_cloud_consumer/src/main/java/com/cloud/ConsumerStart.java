@@ -15,6 +15,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
+//@EnableHystrix
 public class ConsumerStart {
 
     public static void main(String[] args) {

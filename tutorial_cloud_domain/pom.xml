@@ -21,13 +21,6 @@
     </properties>
 
     <dependencies>
-        <!--lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
-            <scope>provided</scope>
-        </dependency>
         <!--JPA-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
