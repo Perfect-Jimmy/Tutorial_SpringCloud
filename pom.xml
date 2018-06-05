@@ -35,6 +35,7 @@
     <gateway.version>2.0.0.RC1</gateway.version>
     <sleuth.version>2.0.0.RC1</sleuth.version>
     <config.version>2.0.0.RC1</config.version>
+    <webflux.version>2.0.0.RC1</webflux.version>
   </properties>
 
   <parent>

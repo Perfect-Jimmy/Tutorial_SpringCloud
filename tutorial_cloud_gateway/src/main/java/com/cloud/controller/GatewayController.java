@@ -13,4 +13,11 @@ public class GatewayController {
     public String gatewayTest(){
         return "gate way";
     }
+
+    @GetMapping("/testfun")
+    public String routeTest(){
+        return "gate way";
+    }
+
+
 }

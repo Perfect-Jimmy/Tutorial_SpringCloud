@@ -18,14 +18,14 @@ spring:
         locator:
           enabled: true
       routes:
-      - id: book-server
-        uri: book-server
+      - id: book_route
+        uri: lb://book-server
         predicates:
-        - Path=/**
-      - id: gateway-server
-        uri: gateway-server
-        predicates:
-        - Path=/**
-
+        - Path=/available/**
+        filters:
+        - RewritePath=/available/(?.*), /$\{path}
+      #discovery:
+        #locator:
+          #enabled: true # 是否与服务发现组件进行结合,设为true开启通过服务中心的自动根据 serviceId 创建路由的功能
 
 
