@@ -8,7 +8,7 @@ eureka:
     enable-self-preservation: false       # 关闭自我保护模式(缺省为打开)
     #eviction-interval-timer-in-ms: 1000   # 续期时间,即扫描失效服务的间隔时间(缺省为60*1000ms)
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: false # 表示是否将自己注册到 Eureka Server,默认为 true。
+    fetch-registry: false # 表示是否从 Eureka Server 获取注册信息,默认为 true
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
+      defaultZone: http://localhost:1111/eureka/ # Eureka Server 交互的地址,查询服务和注册服务都需要依赖这个地址 多个地址可使用英文逗号,分隔

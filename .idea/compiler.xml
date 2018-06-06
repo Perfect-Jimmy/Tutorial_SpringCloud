@@ -13,6 +13,7 @@
         <module name="tutorial_cloud_consumer_ribbon" />
         <module name="tutorial_cloud_domain" />
         <module name="tutorial_cloud_gateway" />
+        <module name="tutorial_cloud_gateway_zuul" />
         <module name="tutorial_cloud_people" />
         <module name="tutorial_cloud_repository" />
         <module name="tutorial_cloud_server" />
@@ -22,6 +23,7 @@
     <bytecodeTargetLevel target="8">
       <module name="tutorial_cloud_consumer" target="1.8" />
       <module name="tutorial_cloud_feign" target="1.8" />
+      <module name="tutorial_cloud_zuul" target="1.8" />
       <module name="tutorial_consumer" target="1.7" />
     </bytecodeTargetLevel>
   </component>

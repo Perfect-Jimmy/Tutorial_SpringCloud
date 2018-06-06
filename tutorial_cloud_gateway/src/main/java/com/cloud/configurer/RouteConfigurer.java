@@ -1,17 +1,9 @@
 package com.cloud.configurer;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.web.reactive.function.BodyInserters;
-import org.springframework.web.reactive.function.server.RequestPredicates;
-import org.springframework.web.reactive.function.server.RouterFunction;
-import org.springframework.web.reactive.function.server.RouterFunctions;
-import org.springframework.web.reactive.function.server.ServerResponse;
-
 /**
  * Created by Jimmy. 2018/6/4  21:37
  */
-@Configuration
+//@Configuration
 public class RouteConfigurer {
     //这里为支持的请求头，如果有自定义的header字段请自己添加（不知道为什么不能使用*）
     private static final String ALLOWED_HEADERS = "x-requested-with, authorization, Content-Type, Authorization, credential, X-XSRF-TOKEN,token,username,client";
@@ -26,13 +18,13 @@ public class RouteConfigurer {
      * 当请求的路径为/testfun时,直接返回ok的状态码,且响应体为hello字符串
      * @return
      */
-    @Bean
+   /* @Bean
     public RouterFunction<ServerResponse> testFunRouterFunction() {
         RouterFunction<ServerResponse> route = RouterFunctions.route(
                 RequestPredicates.path("/testfun"),
                 request -> ServerResponse.ok().body(BodyInserters.fromObject("hello")));
         return route;
-    }
+    }*/
 
 
 
