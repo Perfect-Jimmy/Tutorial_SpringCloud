@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -18,9 +17,10 @@
         <module name="tutorial_cloud_repository" />
         <module name="tutorial_cloud_server" />
         <module name="tutorial_cloud_service" />
+        <module name="tutorial_cloud_zuul_1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="tutorial_cloud_book" target="1.8" />
       <module name="tutorial_cloud_configurer" target="1.8" />
       <module name="tutorial_cloud_consul" target="1.8" />
@@ -32,7 +32,8 @@
       <module name="tutorial_cloud_repository" target="1.8" />
       <module name="tutorial_cloud_server" target="1.8" />
       <module name="tutorial_cloud_service" target="1.8" />
-      <module name="tutorial_springcloud" target="1.8" />
+      <module name="tutorial_cloud_zuul_1" target="1.8" />
+      <module name="tutorial_space" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -13,7 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_repository/tutorial_cloud_repository.iml" filepath="$PROJECT_DIR$/tutorial_cloud_repository/tutorial_cloud_repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_server/tutorial_cloud_server.iml" filepath="$PROJECT_DIR$/tutorial_cloud_server/tutorial_cloud_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_service/tutorial_cloud_service.iml" filepath="$PROJECT_DIR$/tutorial_cloud_service/tutorial_cloud_service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tutorial_springcloud.iml" filepath="$PROJECT_DIR$/tutorial_springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial_cloud_zuul_1/tutorial_cloud_zuul_1.iml" filepath="$PROJECT_DIR$/tutorial_cloud_zuul_1/tutorial_cloud_zuul_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tutorial_space.iml" filepath="$PROJECT_DIR$/.idea/tutorial_space.iml" />
     </modules>
   </component>
 </project>
