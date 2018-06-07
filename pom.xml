@@ -20,7 +20,6 @@
     <module>tutorial_cloud_service</module>
     <module>tutorial_cloud_consumer_ribbon</module>
     <module>tutorial_cloud_consumer_feign</module>
-      <module>tutorial_cloud_gateway_zuul</module>
   </modules>
 
   <name>tutorial_springcloud</name>
