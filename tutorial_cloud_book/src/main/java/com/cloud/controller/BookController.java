@@ -20,7 +20,7 @@ public class BookController {
 
     @RequestMapping("book")
     public String bookTest() throws InterruptedException {
-        Thread.sleep(1000*3L);
+        //Thread.sleep(1000*3L);
         String service = discoveryClient.getServices().toString();
         logger.info("service:{}",service);//[book-server, people_service]  即yml中配置的application name.
         return service;
