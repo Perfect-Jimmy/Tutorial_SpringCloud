@@ -14,13 +14,12 @@
     <module>tutorial_cloud_book</module>
     <module>tutorial_cloud_people</module>
     <module>tutorial_cloud_consul</module>
-    <module>tutorial_cloud_gateway</module>
     <module>tutorial_cloud_domain</module>
     <module>tutorial_cloud_repository</module>
     <module>tutorial_cloud_service</module>
     <module>tutorial_cloud_consumer_ribbon</module>
     <module>tutorial_cloud_consumer_feign</module>
-    <module>tutorial_cloud_zuul_1</module>
+    <module>tutorial_cloud_gateway_zuul</module>
   </modules>
 
   <name>tutorial_springcloud</name>

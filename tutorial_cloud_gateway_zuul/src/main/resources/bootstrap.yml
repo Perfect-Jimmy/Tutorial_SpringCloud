@@ -1,7 +1,10 @@
+#server:
+  #port: @server.port@
+
 spring:
   application:
     name: zuul-server
   cloud:
     config:
       uri: http://localhost:8020
-
+      name: zuul-server

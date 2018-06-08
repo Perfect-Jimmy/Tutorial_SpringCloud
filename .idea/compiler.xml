@@ -12,15 +12,14 @@
         <module name="tutorial_cloud_consumer_feign" />
         <module name="tutorial_cloud_consumer_ribbon" />
         <module name="tutorial_cloud_domain" />
-        <module name="tutorial_cloud_gateway" />
+        <module name="tutorial_cloud_gateway_zuul" />
         <module name="tutorial_cloud_people" />
         <module name="tutorial_cloud_repository" />
         <module name="tutorial_cloud_server" />
         <module name="tutorial_cloud_service" />
-        <module name="tutorial_cloud_zuul_1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
+    <bytecodeTargetLevel target="7">
       <module name="tutorial_cloud_book" target="1.8" />
       <module name="tutorial_cloud_configurer" target="1.8" />
       <module name="tutorial_cloud_consul" target="1.8" />
@@ -28,12 +27,13 @@
       <module name="tutorial_cloud_consumer_ribbon" target="1.8" />
       <module name="tutorial_cloud_domain" target="1.8" />
       <module name="tutorial_cloud_gateway" target="1.8" />
+      <module name="tutorial_cloud_gateway_zuul" target="1.8" />
       <module name="tutorial_cloud_people" target="1.8" />
       <module name="tutorial_cloud_repository" target="1.8" />
       <module name="tutorial_cloud_server" target="1.8" />
       <module name="tutorial_cloud_service" target="1.8" />
       <module name="tutorial_cloud_zuul_1" target="1.8" />
-      <module name="tutorial_space" target="1.8" />
+      <module name="tutorial_springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
